@@ -1,0 +1,606 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 2px solid red;
+    background-color: lightgray;
+}
+
+.timePages .pages, #time, #follow, #burgerimg, #slice, #bestfoodOmelette, #bestfoodBiryani, #bestfoodChicken, #varietyoffoodleftside, #varietyoffoodrightside{
+    display: none;
+}
+
+#head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+#SSBHover{
+    color: grey;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+#Burger{
+    background-image: url(./Images/1stBackground.jpg);
+}
+
+#burgername{
+    padding-left: 15px;
+}
+
+#p1{
+    padding-top: 100px;
+    color: #fc791a;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#p2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 73px;
+}
+
+#ordernowforBurger{
+    
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 220px;
+}
+
+#arrowfororder{
+    background-color: white;
+    color: red;
+    margin-left: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 23px;
+}
+
+.bestFood{
+    margin-top: 70px;
+}
+#bestFoodtitle{
+    text-align: center;
+    font-size: 17px;
+    color: #fc791a;
+}
+#bestFoodtitle p{
+    color: black;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 60px;
+}
+
+#bestfoodPizza{
+    text-align: center;
+    margin-top: 50px;
+    background-color: azure;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+#bestfoodPizza img{
+    height: 150px;
+    width: 150px;
+}
+#bestfoodPizza a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bestfoodPizza p{
+    color: grey;
+}
+#bestfoodpizzaPrice{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#firstOFThree, #secondOFThree, #ThirdOFThree{
+    background-image: url(./Images/BGOfThreeMenu.jpg);
+    height: 535px;
+    width: 290;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#firstOFThree{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#secondOFThree{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#ThirdOFThree{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+}
+
+#firstOFThree img{
+    margin-left: 30px;
+}
+#secondOFThree img{
+    margin-left: 30px;
+}
+#ThirdOFThree img{
+    margin-left: 30px;
+}
+#firstofthreedetail{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#secondofthreedetails{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#thirdofthreedetails{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#onthisweek, #welcomefreshet{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#spicyfriedchicken, #todayspacialfood, #specialchickenroll{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+#limitstimeoffer{
+    color: #fc791a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ordernowfriedChicken{
+    background-color: red;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    margin-top: 30px;
+}
+#rightarrowforchicken{
+    margin-left: 10px;
+    color: white;
+}
+
+.varietyoffood{
+    text-align: center;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.varietyoffood h3{
+    margin-top: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fc791a;
+}
+#p1forvariety{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    line-height: 60px;
+}
+#p2forvariety{
+    color: grey;
+}
+
+#varietyfoodbtn{
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+#arrowforvariety{
+    background-color: white;
+    color: red;
+    margin-left: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 23px;
+}
+
+.popularDishes{
+    margin-top: 80px;
+}
+
+#populardishesaboutus{
+    text-align: center;
+}
+#populardishesaboutus h3{
+    color: #fc791a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#populardishesaboutus p{
+    font-size: 47px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.populardishessubmenu{
+    /* border: 1px solid red; */
+    background-color: white;
+    text-align: center;
+    height: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding-top: 10px;
+    
+}
+.populardishessubmenu a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.populardishessubmenu img{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    margin-top: 40px;
+}
+.populardishessubmenu p{
+    margin-top: 15px;
+    font-size: 16px;
+    color: grey;
+}
+.populardishessubmenu h3{
+    margin-top: 15px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#viewallitemsbtn{
+    text-align: center;
+    margin-top: 50px;
+}
+#viewallitmes{
+    padding: 15px;
+    background-color: #eb0029;
+    color: white;
+}
+#viewallitemarrow{
+    background-color: white;
+    color: red;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.todaySpecialFood{
+    background-image: url(./Images/todayspecialfoodBG.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.todaySpecialFood img{
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#tsfd_p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#tsfd_p2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+#tsfd_p3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fc791a;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+#todaySpecialFooddetails{
+    margin-left: 20px;
+}
+
+#todaySpecialbtn{
+    padding: 15px;
+    background-color: #eb0029;
+    color: white;
+    margin-top: 20px;
+}
+#tsfd_arrow{
+    background-color: white;
+    color: red;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.foodMenu{
+    background-color: white;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 80px;
+    padding-top: 40px;
+}
+#foodmenutop{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* width: 80%; */
+    /* margin-left: 25px; */
+}
+
+#foodmenutop h3{
+    color: #fc791a;
+}
+#foodmenutop p{
+    font-size: 45px;
+}
+
+#foodmenumiddle_img_a {
+    align-items: center;
+}#foodmenutop img{
+    align-items: center;
+}
+
+#foodmenumiddle_img_a{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+#foodmenumiddle_img_a a{
+    text-decoration: none;
+    color: rgb(32, 28, 28);
+}
+#foodmenu_fastFood, #foodmenu_Drink, #foodmenu_ChickenPizza, #foodmenu_freshPasta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#foodmenu_freshPasta{
+    margin-bottom: 50px;
+}
+
+#menuchickenpasta{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+#menuchickenpasta img{
+    height: 100px;
+    width: 100px;
+
+}
+
+#menuchickenpastaDetails{
+    vertical-align: center;
+}
+
+#menuchickenpasta a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#menuchickenpasta p{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#menuchickenpasta h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 25px;
+}
+
+.slidebar{
+    display: flex;
+    gap: 60px;
+    font-size: 100px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: move 10s linear infinite;
+    white-space: nowrap;
+}
+@keyframes move {
+    from { transform: translateX(100%); }
+    to   { transform: translateX(-200%); }
+}
+.slidebar a{
+    text-decoration: none;
+    color: grey;
+}
+
+.specialOffer{
+    background-image: url(./Images/BGOfThreeMenu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+#specialofferburgerimg{
+    width: 100%;
+    padding: 20px;
+}
+
+#specialofferdetail{
+    /* background-color: white;    */
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#specialofferdetail h3{
+    color: #fc791a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#specialoffer_p1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+#specialoffer_p2{
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#specialOfferbtn{
+    padding: 15px;
+    background-color: #eb0029;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#specialofferarrow{
+    background-color: white;
+    color: red;
+    margin-left: 10px;
+    padding: 2px;
+}
+
+.ourchefe{
+    /* border: 1px solid red; */
+    text-align: center;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.ourchefe h3{
+    color: #fc791a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#meetourexpertchefe{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.forRalph, .forLeslie, .forRonald{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.forRalph h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    margin-top: 40px;
+}
+.forLeslie h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    margin-top: 40px;
+}
+.forRonald h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+.forRalph p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+.forLeslie p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+.forRonald p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.forRalph a{
+    background-color: #fc791a;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 100%;
+    color: white;
+}
+.forLeslie a{
+    background-color: #fc791a;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 100%;
+    color: white;
+}
+.forRonald a{
+    background-color: #fc791a;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 100%;
+    color: white;
+}
+
+footer{
+    background-color: #010F1C;
+}
+
+#footertop{
+    background-color: #fc791a;
+    border-radius: 10px;
+    text-align: center;
+}
+#address{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
