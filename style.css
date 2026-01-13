@@ -6,7 +6,7 @@
 
 body {
     border: 2px solid red;
-    /* background-color: lightgray; */
+    background-color: lightgray;
 }
 
 /* CSS for Home Page */
@@ -1175,8 +1175,8 @@ body {
 }
 
 .foodMenu{
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
     background-color: antiquewhite;
     border-radius: 10px;
     padding: 10px;
@@ -1218,6 +1218,9 @@ body {
         justify-content: center;
         flex: 1;
     }
+    #menuchickenpastaDetails{
+        margin-right: 250px;
+    }
 
     /* price */
     #menuchickenpasta > div:nth-child(2) > div:last-child{
@@ -1228,6 +1231,13 @@ body {
     #menuchickenpasta h3{
         margin-top: 0;
     }
+
+    .specialOffer{
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
 .foodMenuMainItems{
     padding-bottom: 40px;
     padding-left: 20px;
@@ -1304,7 +1314,70 @@ body {
 
 @media only screen and (min-width:1199px){
 
-.popularDishesMenu{
+    .timePages .pages, #time, #follow, #burgerimg, #slice, #bestfoodOmelette, #bestfoodBiryani, #bestfoodChicken, #varietyoffoodleftside, #varietyoffoodrightside{
+    display: block;
+    }
+
+    #logo{
+        width: 15%;
+    }
+    .timePages{
+        width: 85%;
+    }
+
+    #logo img{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    #timelogo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: #eb0029;
+        color: white;
+        padding: 15px;
+        margin-top: -20px;
+        width: 100%;
+    }
+    #time h3{
+        color: #ccc;
+    }
+    #follow h3{
+        color: #ccc;
+    }
+    #timelogo i{
+        color: white;
+    }
+
+    #atagsforpages{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 35px;
+        text-align: center;
+        background-color: #010f1c;
+        /* height: 20vh; */
+    }
+    .pages a{
+        text-decoration: none;
+        color: white;
+    }
+   
+    #followHover i:hover{
+        color: #eb0029;
+    }
+    .pages a:hover{
+        color: #eb0029;
+    }
+    #SSBHover i:hover{
+        color: #eb0029;
+    }
+    #ordernowforBurger:hover{
+        background-color: #fc791a;
+    }
+
+    .popularDishesMenu{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 20px;
@@ -1315,5 +1388,312 @@ body {
         height: auto; /* let height adjust */
     }
 
+    #follow{
+        margin-right: 60px;
+    }
+    #time{
+        margin-left: 60px;
+    }
 
+    #Burger{
+        margin-top: -20px;
+    }
+
+    .timePages{
+        margin-right: -20px;
+    }
+
+    .pages{
+        margin-left: 50px;
+    }
+    .pages a{
+        margin-right: 20px;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #SSB{
+        margin-right: 25px;
+    }
+
+    #SSB a{
+        margin-right: 20px;
+    }
+
+    #Burger{
+        display: flex;
+        flex-wrap:  wrap;
+        /* align-items: center; */
+        height: 1100px;
+        background-repeat: no-repeat;
+    }
+
+    #burgerimg{
+        margin-left: 250px;
+        margin-top: 50px;
+    } 
+    #burgername{
+        /* margin-top: 100px; */
+    }
+
+    #p1{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    #p2{
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    #bestfoodPizza, #bestfoodOmelette, #bestfoodBiryani, #bestfoodChicken{
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+        background-color: azure;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        width: 25%;
+        height: 280px;
+        padding-top: 20px;
+
+    }
+
+    #bestfoodChicken img{
+        height: 150px;
+        width: 150px;
+    }
+    #bestfoodChicken a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bestfoodChicken p{
+    color: grey;
+}
+
+.bestFood{
+    margin-top: -200px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.threemenu{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+#firstOFThree, #secondOFThree, #ThirdOFThree{
+    height: 250px;
+    width: 30%;
+
+}
+
+#secondOFThree{
+    margin-top: 77px;
+}
+#ThirdOFThree{
+    margin-top: 77px;
+}
+
+.threemenu img{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+#ordernowfriedChicken:hover{
+    background-color: #010f1c;
+}
+
+.varietyoffood{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: -1px;
+    margin-top: 50px;
+}
+#p2forvariety{
+    margin-top: 20px;
+}
+#varietyfoodbtn:hover{
+    background-color: #fc791a;
+}
+
+.populardishessubmenu:hover{
+    background-image: url(./Images/populardishesbghover.png);
+}
+
+.populardishessubmenu:hover a,
+.populardishessubmenu:hover p,
+.populardishessubmenu:hover h3 {
+    color: white;   /* any color you want */
+}
+#viewallitmes:hover{
+    background-color: #fc791a;
+}
+
+.todaySpecialFood{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+#todaySpecialbtn:hover, #specialOfferbtn:hover{
+    background-color: #fc791a;
+}
+
+
+.foodMenu{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#foodmenumiddle_img_a, .foodMenuMainItems{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#foodmenuSide1{
+    margin-left: 70px;
+}
+#foodmenuSide2{
+    margin-left: 120px;
+}
+
+#menuchickenpasta{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#menuchickenpastaDetails{
+    margin: 0px;
+    /* margin-left: -100px; */
+}
+
+#menuchickenpasta div h3{
+    margin-left: 50px;
+}
+
+.chickenpasta{
+    margin-left: -190px;
+}
+.chickenPizza{
+    margin-left: -180px;
+}
+.chickenfriedRice, .chickenNoodles{
+    margin-left: -10px;
+}
+.grilledChicken{
+    margin-left: -100px;
+}
+.eggandCucumber{
+    margin-left: -110px;
+}
+.spatialBargar, .briefChicken{
+    margin-left: -210px;
+}
+.vegetablesBurger{
+    margin-left: -140px;
+}
+
+
+.specialOffer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* width: 100%; */
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+}
+#specialofferburgerimg{
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+#specialofferdetail{
+    margin-left: 250px;
+    /* background-color: #FFFFF0; */
+}
+
+.threechefeDetails{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#facebook:hover, #linkedin:hover, #share:hover{
+    background-color: #eb0029;
+}
+#facebook, #share, #linkedin{
+    margin-left: 5px;
+}
+
+.latestnewsMenu{
+    justify-content: space-evenly;
+}
+
+#noodlesSpoon, #ChickenCashew, #mash{
+    height: 400px;
+    text-align: start;
+}
+
+#noodledetail1 h3 a:hover, #noodledetail1 p a:hover, #ChickenCashewdetail2 h3 a:hover, #ChickenCashewdetail2 p a:hover, #Mashdetail2 h3 a:hover, #Mashdetail2 p a:hover{
+    color: #eb0029;
+}
+
+
+#footertop{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footerMiddle{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+#QuickLinks,#forContactUs{
+    width: auto;
+}
+
+#footerLogoAnchor a:hover{
+    background-color: #eb0029;
+}
+
+#QuickLinksAnchor a:hover, #OurMenuAnchor a:hover, #privacylabel a:hover{
+    color: #eb0029;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
