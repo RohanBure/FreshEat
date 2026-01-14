@@ -974,20 +974,20 @@ body {
     margin-left: 6px;
 }
 
-/* Main card */
+
 #mash{
     width: 290px;
     background-color: #fff;
     font-family: Arial, sans-serif;
 }
 
-/* Image on top */
+
 #mash img{
     width: 100%;
     display: block;
 }
 
-/* Meta section (date + admin + tag) */
+
 #mash > div:nth-child(2){
     display: flex;
     align-items: center;
@@ -995,7 +995,7 @@ body {
     padding: 15px;
 }
 
-/* Date box */
+
 #mash > div:nth-child(2) > div:nth-child(1){
     background-color: #eb0029;
     color: white;
@@ -1014,7 +1014,7 @@ body {
     text-transform: uppercase;
 }
 
-/* Admin & tag side by side */
+
 #mash > div:nth-child(2) > div{
     display: flex;
     align-items: center;
@@ -1027,7 +1027,7 @@ body {
     color: #eb0029;
 }
 
-/* Content section */
+
 #mash > div:nth-child(3){
     padding: 0 15px 20px;
 }
@@ -1043,7 +1043,7 @@ body {
     font-weight: 700;
 }
 
-/* Read more */
+
 #mash p a{
     text-decoration: none;
     color: #666;
@@ -1235,15 +1235,15 @@ body {
     font-size: 40px;
 }
 #chef_details_img img{
-    height: 300px;
+    height: 200px;
     margin-top: 30px;
 }
 #chef_details_img a{
     width: 40px;
     height: 40px;
-    background-color: orange;     /* circle color */
-    border-radius: 50%;           /* makes it circle */
-    display: inline-flex;         /* center icon */
+    background-color: orange;
+    border-radius: 50%;       
+    display: inline-flex;     
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -1277,11 +1277,11 @@ body {
     margin-top: 80px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    height: 500px;
+    height: 600px;
 }
 #download_now_info{
     padding-left: 20px;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 #download_now_info h3{
     color: white;
@@ -1297,7 +1297,7 @@ body {
 #appleBtn{
     margin-top: 40px;
     padding: 10px;
-    width: 250px;
+    width: 150px;
     font-size: 15px;
     font-weight: bolder;
     border-radius: 30px;
@@ -1307,13 +1307,112 @@ body {
 #GooglePlayBtn{
     margin-top: 10px;
     padding: 10px;
-    width: 250px;
+    width: 150px;
     font-size: 15px;
     font-weight: bolder;
     border-radius: 30px;
     color: white;
     background-color: transparent;
 }
+
+.testimonialAboutUs{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+#testimonial_Girl img{
+    height: 280px;
+    /* margin-left: 15px; */
+}
+#testimonial_Details h3{
+    color: #fc791a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px; 
+}
+#testimonial_Details h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+#testimonial_Details p{
+    color: grey;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+#testimonial_Profiles{
+    height: 100px;
+    margin-top: 40px;
+    width: 100%;
+}
+#testimonial_Profiles img{
+    margin-right: 20px;
+    height: 80px;
+    /* align-content: center; */
+}
+#T_Meat, #T_Pizza, #T_Potato, #T_tomato{
+    display: none;
+}
+#T_fruit{
+    margin-top: 50px;
+    margin-left: 20px; 
+    height: 280px;  
+}
+
+
+/* for Gallery Page */
+
+.Galleryhead{
+    background-image: url(./Images/aboutusTopbackground.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    padding-top: 120px;
+}
+#gallery_p1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+#gallery_p2{
+    color: #eb0029;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+#gallery_p2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.Gallery img{
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+#Gallery_1{
+    height: 170px;
+    margin-top: 70px;
+}
+#Gallery_2, #Gallery_4, #Gallery_5, #Gallery_6, #Gallery_7, #Gallery_8, #Gallery_9, #Gallery_11{
+    height: 220px;
+}
+#Gallery_3, #Gallery_12{
+    height: 300px;
+}
+#Gallery_10{
+    height: 170px;
+}
+#Gallery_12{
+    margin-bottom: 50px;
+}
+
 
 
 
@@ -1410,7 +1509,7 @@ body {
     #secondOFThree,
     #ThirdOFThree{
         display: flex;
-        flex-direction: row-reverse; /* image → right */
+        flex-direction: row-reverse;
         align-items: center;
         padding: 20px;
         height: auto;
@@ -1424,7 +1523,7 @@ body {
         flex: 1;
     }
 
-    /* remove mobile margins so alignment looks clean */
+    
     #firstOFThree img,
     #secondOFThree img,
     #ThirdOFThree img{
@@ -1446,8 +1545,8 @@ body {
     }
 
     .populardishessubmenu{
-        margin: 0; /* remove side margins */
-        height: auto; /* let height adjust */
+        margin: 0;
+        height: auto;
     }
 
 
@@ -1469,15 +1568,15 @@ body {
 #foodmenumiddle_img_a{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;   /* center items */
-        gap: 25px;                 /* clean gap */
+        justify-content: center;
+        gap: 25px; 
     }
 
     #foodmenu_fastFood,
     #foodmenu_Drink,
     #foodmenu_ChickenPizza,
     #foodmenu_freshPasta{
-        width: 40%;                /* NOT full width */
+        width: 40%; 
         margin-bottom: 30px;
         text-align: center;
     }
@@ -1485,17 +1584,17 @@ body {
 
 #menuchickenpasta{
         display: flex;
-        align-items: center;          /* vertical center */
+        align-items: center;
         justify-content: space-between;
         gap: 20px;
     }
 
-    /* image */
+    
     #menuchickenpasta > div:first-child{
         flex: 0 0 100px;
     }
 
-    /* middle text (a + p) */
+    
     #menuchickenpasta > div:nth-child(2){
         display: flex;
         flex-direction: column;
@@ -1506,7 +1605,7 @@ body {
         margin-right: 250px;
     }
 
-    /* price */
+    
     #menuchickenpasta > div:nth-child(2) > div:last-child{
         margin-left: auto;
         align-self: center;
@@ -1533,7 +1632,7 @@ body {
         width: 100%;
     }
 
-    /* make card container flex */
+    
     .latestnewsMenu{
         display: flex;
         justify-content: center;
@@ -1542,14 +1641,14 @@ body {
         align-items: flex-start;
     }
 
-    /* cards side by side */
+    
     #noodlesSpoon,
     #ChickenCashew,
     #mash{
         width: 290px;
     }
 
-    /* remove line breaks effect */
+    
     .latestnewsMenu br{
         display: none;
     }
@@ -1557,19 +1656,19 @@ body {
 #address,
 #MailEnvelop,
 #EmergencyCall{
-    justify-content: flex-start; /* instead of space-around */
-    padding-left: 50px;             /* avoid double padding */
+    justify-content: flex-start;
+    padding-left: 50px;
 }
 
 .FooterLogo_QuickLinks, .OurMenu_forContactUS{
         display: flex;
-        flex-direction: row;      /* side by side */
+        flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
     }
 
     #footerLogo,#QuickLinks, #OurMenu, #forContactUs{
-        width: 48%;               /* prevent too much space */
+        width: 48%; 
     }
 
 .Copyright{
@@ -1580,8 +1679,132 @@ body {
 
     #Copy_Anchor{
         display: flex;
-        gap: 20px;   /* space between links */
+        gap: 20px;
     }
+
+
+
+
+
+    /* for About Page */
+
+    #ThreeMenu_1st,
+    #ThreeMenu_2nd,
+    #ThreeMenu_3rd {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        height: 350px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    #three_1st_detail,
+    #three_2nd_detail,
+    #three_3rd_detail {
+        width: 50%;
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
+
+    #ThreeMenu_1st img,
+    #ThreeMenu_2nd img,
+    #ThreeMenu_3rd img {
+        width: auto;
+        height: 260px;
+        margin: 0;
+    }
+
+    .downloadApp{
+        height: 450px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    #download_now_info{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    #Two_Button{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #GooglePlayBtn{
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    #testimonial_Girl img{
+        height: 700px;
+    }
+
+    #T_Meat, #T_Pizza, #T_fruit{
+        display: block;
+        height: 200px;
+    }
+    .Testi_Mix{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+    #T_Meat, #T_Pizza{
+        margin-top: 50px;
+    }
+
+    .FooterLogo_QuickLinks, .OurMenu_ForContactUs{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #Copy{
+        margin-top: 20px;
+    }
+
+
+    /* for Gallery Page */
+    
+
+    #gallery_p1{
+        font-size: 70px;
+    }
+
+    #Gallery_1{
+    height: 450px;
+    margin-top: 70px;
+}
+#Gallery_2, #Gallery_4, #Gallery_5, #Gallery_6, #Gallery_7, #Gallery_8, #Gallery_9, #Gallery_11{
+    height: 570px;
+}
+#Gallery_3, #Gallery_12{
+    height: 780px;
+}
+#Gallery_10{
+    height: 450px;
+}
+
+.FooterLogo_QuickLinks, .OurMenu_ForContactUs{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #Copy{
+        margin-top: 20px;
+    }
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1599,6 +1822,8 @@ body {
 /* This Media query is for Laptop View*/
 
 @media only screen and (min-width:1199px){
+
+    /* for Home Page */
 
     .timePages .pages, #time, #follow, #burgerimg, #slice, #bestfoodOmelette, #bestfoodBiryani, #bestfoodChicken, #varietyoffoodleftside, #varietyoffoodrightside{
     display: block;
@@ -1961,6 +2186,192 @@ body {
     color: #eb0029;
 }
 
+
+
+/* for About Page */
+
+.aboutUshead{
+    height: 600px;
+    margin-top: -20px;
+    /* background-size: auto; */
+}
+#about_p1{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+#about_p2{
+    font-size: 20px;
+}
+#about_p2 a:hover{
+    color: #eb0029;
+}
+
+.ThreeMenu {
+        display: flex;
+        gap: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -150px;
+    }
+
+    #ThreeMenu_1st,
+    #ThreeMenu_2nd,
+    #ThreeMenu_3rd {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        
+        height: 300px;
+
+        padding: 30px;
+        margin: 0; 
+        box-sizing: border-box;
+    }
+
+    #three_1st_detail,
+    #three_2nd_detail,
+    #three_3rd_detail {
+        width: 55%;
+        margin: 0;
+    }
+
+    #ThreeMenu_1st img,
+    #ThreeMenu_2nd img,
+    #ThreeMenu_3rd img {
+        height: 260px;
+        width: auto;
+        margin: 0;
+    }
+
+    #three_1st_detail button:hover, #three_2nd_detail button:hover, #three_3rd_detail button:hover{
+        background-color: #010f1c;
+    }
+
+    .AboutUsforAbout{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    #aboutUs_img img{
+        height: 500px;
+        width: 700px;
+        margin-left: -150px;
+    }
+
+    .AboutUs_Detail{
+        margin-left: 250px;
+        margin-top: 50px;
+        margin-right: 100px;
+    }
+    .qualityFood_QualifiedChef{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .todaySpecialFood {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 60px;
+    }
+    #AmericanCuisine:hover{
+        background-color: #fc791a;
+    }
+    
+    #chef_details_img{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+    #chef_detail_img_1, #chef_detail_img_2, #chef_detail_img_3{
+        width: 30%;
+    }
+    
+    #chef_detail_img_1 a:hover, #chef_detail_img_2 a:hover, #chef_detail_img_3 a:hover{
+        background-color: #eb0029;
+    }
+
+    #download_now_img{
+        display: block;
+    }
+    .downloadApp{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #download_now_info{
+        width: 500px;
+    }
+    #download_Mobile{
+        height: 350px;
+    }
+    #download_now_img{
+        margin-top: 100px;
+    }
+    #download_45{
+        margin-bottom: 200px
+    }
+    #appleBtn:hover{
+        background-color: #010f1c;
+    }
+    #GooglePlayBtn:hover{
+        background-color: #eb0029;
+    }
+
+    .testimonialAboutUs{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 60px;
+    }
+    #testimonial_Girl img{
+        height: 570px;
+    }
+    #testimonial_Details i{
+        font-weight: bolder;
+    }
+
+    #T_fruit, #T_Meat, #T_Pizza, #T_Potato, #T_tomato{
+        display: block;
+        height: 250px;
+    }
+    #T_Potato, #T_tomato{
+        margin-top: 50px;
+    }
+
+    .FL_QL_OM_FC{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #footerLogo{
+        margin-left: 100px;
+    }
+    #QuickLinks{
+        margin-left: -200px;
+        margin-right: 150px;
+    }
+    #OurMenu{
+        margin-right: 100px;
+    }
+
+
+    /* for Gallery Page */
+
+    .Gallery img{
+        display: inline;
+    }
+    .Gallery{
+        margin-left: 130px;
+    }
+    #first_line img, #second_line img, #third_line img, #fourth_line img{
+        height: 300px;
+    }
+    #Gallery_10, #Gallery_11{
+        margin-bottom: 50px;
+    }
+    
 
 
 
