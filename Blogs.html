@@ -75,16 +75,21 @@
 
         <main>
             <section class="Blogshead">
-                <p>BLOGS DETAILS</p>
-                <P><a href="index.html">Home</a>/ Blog Details</P>
+                <p id="Blog_p1">BLOGS DETAILS</p>
+                <P id="Blog_p2"><a href="index.html">Home</a>/ Blog Details</P>
             </section>
 
             <section>
-                <img src="./Images/prawns.jpg" alt="">
-                <p><i class="far fa-user"></i>By Admin     <i class="far fa-comments"></i>2 Comments     <i class="fas fa-tag"></i>Fast Food Services</p>
+                <img src="./Images/prawns.jpg" alt="" id="Blog_Top_Img">
+                
+                <div id="U_C_F">
+                    <p><i class="far fa-user"></i> By Admin</p>
+                    <p><i class="far fa-comments"></i> 2 Comments</p>
+                    <p><i class="fas fa-tag"></i> Fast Food Services</p>
+                </div>
                 <hr>
-                <h1>Tackling the Changes of Food Industry</h1>
-                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore of magna aliqua. Ut enim ad minim veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat. Duis aute irure and dolor in reprehenderit.
+                <h1 id="Tackling">Tackling the Changes of Food Industry</h1>
+                <p id="para_below_H1">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore of magna aliqua. Ut enim ad minim veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat. Duis aute irure and dolor in reprehenderit.
                     <br><br>
                     The is ipsum dolor sit amet consectetur adipiscing elit. Fusce eleifend porta arcu In hac habitasse the is platea augue thelorem turpoi dictumst. In lacus libero faucibus at malesuada sagittis placerat eros sed istincidunt augue ac ante rutrum sed the is sodales augue consequat.
                     <br><br>
@@ -92,37 +97,37 @@
                 </p>
                 <br><br>
                 <div>
-                    <article>
+                    <article id="article_blog">
                         Pellentesque sollicitudin congue dolor non aliquam. Morbi volutpat, nisi vel ultricies urnacondimentum, sapien neque lobortis tortor, quis efficitur mi ipsum eu metus. Praesent eleifend orci sit amet est vehicula.
                     </article>
                 </div>
                 <br><br>
-                <p>
+                <p id="para_below_Article">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros.
                 </p>
 
                 <br><br>
 
-                <div>
-                    <img src="./Images/Paneer.jpg" alt="">
+                <div id="img_below_article">
+                    <img src="./Images/Paneer.jpg" alt="" id="img_below_article_1">
                     <img src="./Images/mocktail.jpg" alt="">
                 </div>
 
                 <br><br>
 
-                <p>
+                <p id="para_below_img">
                     Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore of magna aliqua. Ut enim ad minim veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat. Duis aute irure and dolor in reprehenderit.Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore of magna aliqua. Ut enim ad minim veniam, made of owl the quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea dolor commodo consequat. Duis aute irure and dolor in reprehenderit.
                 </p>
                 <hr>
                 <div>
-                    <div>
+                    <div id="Tag_Btn">
                         <h3>Tags:</h3>
                         <button>News</button>
                         <button>Business</button>
                         <button>Marketing</button>
                     </div>
-                    <div>
-                        <h3>Tags:</h3>
+                    <div id="share_icon">
+                        <h3>Share:</h3>
                         <i class="fab fa-facebook-f"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-linkedin-in"></i>
@@ -131,12 +136,29 @@
                 </div>
                 <hr>
                 
+                <!-- <section class="Comment_sec">
+                    <h2>02 Comments</h2>
+                    <div id="Comment_01">
+                        <img src="./Images/Comment_1.png" alt="">
+                        <h3>Albert Flores</h3>
+                        <p id="date_and_time">March 20, 2024 at 2:37pm</p>
+                        <button>Reply</button>
+                        <p id="comment_p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, accusamus magnam? Quas autem obcaecati, laboriosam doloremque illo saepe consectetur, architecto sed ad atque quo soluta error assumenda possimus totam mollitia!</p>
+                    </div>
+                    <div id="Comment_02">
+                        <img src="./Images/Comment_2.png" alt="">
+                        <h3>Alex Flores</h3>
+                        <p id="date_and_time">March 20, 2024 at 2:37pm</p>
+                        <button>Reply</button>
+                        <p id="comment_p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, accusamus magnam? Quas autem obcaecati, laboriosam doloremque illo saepe consectetur, architecto sed ad atque quo soluta error assumenda possimus totam mollitia!</p>
+                    </div>
+                </section> -->
 
-                <div>
+                <div id="Leave_Comments">
                     <h1>Leave a Comments</h1>
-                    <input type="text" placeholder="Your Name">
-                    <input type="mail" placeholder="Your Mail">
-                    <textarea name="" id="" placeholder="Write Message"></textarea>
+                    <input type="text" placeholder="Your Name" id="text_Name">
+                    <input type="mail" placeholder="Your Mail" id="text_mail">
+                    <textarea name="" id="write_msg" placeholder="Write Message"></textarea>
                     <button>Post a Comment <i class="fas fa-arrow-right"></i></button>
                 </div>
             </section>

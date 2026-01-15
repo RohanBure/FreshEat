@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-body {
-    border: 2px solid red;
-    background-color: lightgray;
-}
 
 /* CSS for Home Page */
 
@@ -534,6 +530,11 @@ body {
     margin-right: 10px;
     margin-bottom: 20px;
     margin-bottom: 20px;
+}
+
+.forRalph img, .forLeslie img, .forRonald img{
+    width: 90%;
+    margin-top: 15px;
 }
 
 .forRalph h2{
@@ -1414,6 +1415,286 @@ body {
 }
 
 
+/* for Blogs Page */
+
+
+.Blogshead{
+    background-image: url(./Images/aboutusTopbackground.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    padding-top: 120px;
+}
+#Blog_p1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+#Blog_p2{
+    color: #eb0029;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+#Blog_p2 a{
+    color: white;
+    text-decoration: none;
+}
+#Blog_Top_Img{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 300px;
+    border-radius: 10px;
+}
+#U_C_F{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: grey;
+    margin-bottom: 30px;
+}
+#U_C_F p i{
+    color: #eb0029;
+}
+
+#Tackling{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+#para_below_H1, #para_below_Article, #para_below_img, #comment_p1, #comment_p2{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #666;
+    line-height: 25px;
+}
+#article_blog{
+    background-color: aliceblue;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    padding: 40px;
+    border-radius: 10px;
+    color: #666;
+    border-left: 4px solid #eb0029;
+}
+#img_below_article img{
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 12px;
+}
+#para_below_img{
+    margin-bottom: 40px;
+}
+#Tag_Btn h3, #share_icon h3{
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Tag_Btn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#Tag_Btn, #share_icon{
+    margin-left: 30px;
+}
+
+#Tag_Btn button{
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+#share_icon i{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: darkslategrey;
+    margin-bottom: 30px;
+}
+
+.Comment_sec{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.Comment_sec h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#Comment_01 h3, #Comment_02 h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#Comment_01 button, #Comment_02 button{
+    padding: 8px;
+    width: 80px;
+    color: white;
+    background-color: #eb0029;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* font-size: 20px; */
+}
+#Comment_02 img{
+    margin-top: 40px;
+}
+#date_and_time{
+    font-size: 18px;
+}
+
+#Leave_Comments{
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Leave_Comments h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+#text_mail, #text_Name, #write_msg{
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+#write_msg{
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+#Leave_Comments button{
+    margin-bottom: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    background-color: #eb0029;
+    color: white;
+}
+
+/* for Blogs Page */
+
+
+.Galleryhead{
+    background-image: url(./Images/aboutusTopbackground.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    padding-top: 120px;
+}
+#gallery_p1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+#gallery_p2{
+    color: #eb0029;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+#gallery_p2 a{
+    color: white;
+    text-decoration: none;
+}
+
+#contact_Address, #contact_Mail, #contact_Phone, #conatct_clock{
+    text-align: center;
+    background-color: white;
+    border: 1px solid #eb0029;
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#contact_Address i, #contact_Mail i, #contact_Phone i, #conatct_clock i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #eb0029;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #eb0029;
+    margin-top: 40px;
+}
+
+#contact_Address h2, #contact_Mail h2, #contact_Phone h2, #conatct_clock h2{
+    margin-top: 20px;
+}
+#contact_Address p, #contact_Mail p, #contact_Phone p, #conatct_clock p{
+    color: #666;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.GetInTouch img{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: -50px;
+}
+
+#Touch_form{
+    /* border: 1px solid #eb0029; */
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Touch_form h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+
+#text_Full_Name, #Mail_Address, #tel_Number, #Details_Dropdown, #Write_Msg, #Summit_Button{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+#label_for_check{
+    font-size: 16px;
+    color: #666;
+    margin-left: 15px;
+}
+#check{
+    margin-left: 15px;
+}
+
+#Summit_Button{
+    margin-top: 20px;
+    border-radius: 0;
+    background-color: #eb0029;
+    color: white;
+}
+
+#Write_Msg{
+    padding-bottom: 50px;
+
+}
+
+.map iframe{
+    width: 90%;
+    margin-left: 15px;
+}
+
+
 
 
 
@@ -1792,11 +2073,34 @@ body {
     }
 
     
+    /* for Blogs Page */
+
+    #Blog_Top_Img, #img_below_article img{
+        width: 95%;
+        margin-right: 25px;
+        margin-left: 25px;
+        height: auto;
+    }
+
+#U_C_F{
+    justify-content: flex-start;
+}
+#U_C_F p{
+    margin-right: 40px;
+}
     
 
+/* for COntactUs Page */
 
-
-
+#Add_Mail, #Phone_Clock{
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    justify-content: space-around;
+}
+#contact_Address p, #contact_Phone p, #conatct_clock p, #contact_Mail p{
+    width: 300px;
+}
 
 
 
@@ -2187,6 +2491,13 @@ body {
 }
 
 
+.todaySpecialFood{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+
 
 /* for About Page */
 
@@ -2371,9 +2682,47 @@ body {
     #Gallery_10, #Gallery_11{
         margin-bottom: 50px;
     }
+
+    #gallery_p2 a:hover{
+        color: #eb0029;
+    }
+
+
+    /* for Blogs Page */
+
+    #img_below_article img{
+        width: 95%;
+        margin-right: 25px;
+        margin-left: 25px;
+        height: auto;
+    }
+    #img_below_article img{
+        width: 40%;
+    }
+
+
+    /* for ContactUs Page */
+
+    .Galleryhead, .Blogshead{
+        margin-top: -20px;
+    }
     
 
+    .contactDetails{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    .GetInTouch{
+        display: flex;
+        flex-wrap: nowrap;
+    }
 
+    .map{
+        margin-bottom: 50px;
+        margin-left: 60px;
+    }
 
 
 
